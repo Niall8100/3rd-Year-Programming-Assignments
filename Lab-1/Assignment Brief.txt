@@ -1,9 +1,0 @@
-– Modify the supplied payroll system to include the private instance variable joinDate in class Employee to represent when they joined the company. Use the java.util.Date class for this variable. 
-
-– Use a static variable in the Employee class to help automatically assign each new employee a unique (incremental) id number.
-
-– Assume the payroll is processed once per month. Create an array of Employee variables to store references to the various employee objects.
-
-– In a loop, calculate the payroll for each Employee, and add a €100.00 bonus to the person’s payroll if they joined the company over 5 years ago.
-
-For submitting the assignment, please submit all .java files (not .class files) via Blackboard in a .zip folder. You do not need to write up a report.
