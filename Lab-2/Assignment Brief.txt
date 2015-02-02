@@ -1,0 +1,9 @@
+Using the classes supplied with Assignment One:
+
+- Modify the constructors in the Employee and all the sub-classes to throw a generic Exception if the join date is in the future or if it's before 1990. The exception should have a message with the employee's name, mistaken date, and a short description of the problem.
+
+- Modify the Test class to be able to handle exceptions. When an exception is encountered creating an invalid object, the Test class should print out the error message and continue as normal with the next employees.
+
+- Test this by changing the Test class so that two of the employees will have invalid joining dates.
+
+Note: Please submit your files in this particular format:  Assignment2_firstname_lastname.zip
