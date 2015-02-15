@@ -28,7 +28,7 @@ public class ThreadHandler extends Thread
 			
 			//fetch file name from client
 			String fileName = reader.readLine();
-			System.out.println("Server: file " + fileName + "requested from client");
+			System.out.println("Server: file " + fileName + " requested from client");
 			
 			try
 			{
@@ -52,7 +52,7 @@ public class ThreadHandler extends Thread
 					bis.close();
 					connection.close();
 					
-					System.out.println("Server: File " + fileName + " sent!");
+					System.out.println("Server: File " + fileName + " transfer complete!");
 				}
 				
 				else

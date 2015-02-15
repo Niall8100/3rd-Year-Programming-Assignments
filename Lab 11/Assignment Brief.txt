@@ -1,0 +1,13 @@
+Create server and client programs that allows any kind of file to be uploaded and downloaded to the server.  
+
+The server should be multi-threaded, and have one thread per connection.  (12 marks)
+
+Include appropriate output to the console window, e.g. "client connected" (1 mark)
+
+The client should have a simple GUI that allows the user to specify whether to upload or download a file, as well as the file name (or file directory).
+
+Include a pdf file showing the operation of the GUI (1 mark)
+
+Comment your code appropriately, including your details (name, ID number) in each java file.  Submit your assignment in the form Assignment11_firstname_lastname.zip (1 mark)  
+
+15 marks are awarded for this assignment, instead of the normal 10.

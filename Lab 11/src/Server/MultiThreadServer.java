@@ -30,6 +30,7 @@ public class MultiThreadServer implements Runnable
 		}
 	}
 	
+	//run server using threadHandler class
 	@Override
 	public void run() 
 	{
