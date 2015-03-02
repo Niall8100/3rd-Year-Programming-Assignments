@@ -1,0 +1,12 @@
+Re-implement the file transfer application, but this time using Datagram sockets and multiple packets. 
+This means using a UDP protocol instead of TCP.This means that your application may receive packets out
+of order, and some packets may be dropped. You must make the code be able to organize the incoming packets
+into the proper order, and ensure that all information has been received – unreceived packets should be re-sent.
+For this, you should have sequence numbers and make good use of timers.
+
+ 
+Submit your assignment in the form Assignment12_firstname_lastname.zip (1 mark)  
+
+Note that this assignment is the extension of last assignment the all the implementation remains same
+except the protocol implementation.
+
